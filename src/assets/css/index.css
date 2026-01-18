@@ -1,0 +1,164 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#app {
+    height: 100%;
+}
+
+
+.login {
+    width: 100%;
+    height: 100%;
+    background: url(../image/index.png)no-repeat top center;
+    background-size: cover;
+    background-color: #B8E5F8;
+}
+
+.login-img {
+    text-align: center;
+    padding: 30px;
+}
+
+
+.login-img img {
+    width: 128px;
+    height: 81px;
+}
+
+
+.login-item {
+    display: flex;
+    height: 420px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loginleft {
+    width: 320px;
+    background-color: #fff;
+    border-right: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+.loginright {
+    width: 430px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.loginleft-title {
+    line-height: 23px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.logleft-erm {
+    margin: 10px 0;
+}
+
+.logleft-erm img {
+    width: 180px;
+    height: 180px;
+}
+
+.loginleft ul {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    padding: 0;
+}
+
+.loginleft ul li {
+    list-style: none;
+    margin: 0 5px;
+}
+
+.loginleft .el-button {
+    font-size: 10px;
+}
+
+.login-item .el-input {
+    margin-top: 6px;
+}
+
+.login-item .el-input__wrapper {
+    padding: 10px;
+}
+
+.login-item .el-button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.otherwise {
+    width: 100%;
+    text-align: center;
+    margin-top: 26px;
+    position: relative;
+}
+
+.otherwise-title {
+    color: #9198A4;
+    font-size: 12px;
+}
+
+.otherwise-title::before {
+    content: '';
+    position: absolute;
+    left: 43px;
+    top: 9px;
+    width: 124px;
+    height: 1px;
+    background-color: #9198A4;
+}
+
+.otherwise-title::after {
+    content: '';
+    position: absolute;
+    right: 43px;
+    top: 9px;
+    width: 124px;
+    height: 1px;
+    background-color: #9198A4;
+}
+
+.otherwise ul {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 20px;
+    list-style: none;
+    width: 200px;
+}
+
+.otherwise ul li svg {
+
+    width: 35px;
+    height: 24px;
+    background-color: #F6F6F8;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.code-btn {
+    position: relative;
+}
+
+.code-btn .el-link {
+    position: absolute;
+    right: 18px;
+    top: 18px;
+    font-size: 17px;
+}
+
+.agreement {
+    text-align: center;
+    margin-top: 20px;
+}
