@@ -5,5 +5,5 @@ import '@/assets/css/common.css'
 import '@/assets/css/index.css'
 import '@/assets/font/iconfont.css'
 import '@/assets/font/iconfont.js'
-
+//Vue3项目
 createApp(App).use(router).mount('#app')
