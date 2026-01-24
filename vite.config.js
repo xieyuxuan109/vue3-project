@@ -8,7 +8,15 @@ import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 export default defineConfig({
   server: {
     open: true, // 自动打开浏览器
-    port: 8088
+    port: 8088,
+    host: '0.0.0.0',
+    proxy: {
+      '/api': {
+        target: 'http://localhost:8080',
+        changeOrigin: true,
+        // rewrite: (path) => path.replace(/^\/api/, ''),
+      }
+    }
   },
   resolve: {
     alias: {
